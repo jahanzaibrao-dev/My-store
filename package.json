@@ -10,7 +10,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "e2e": "ng e2e",
-    "server": "json-server --watch db.json --port 5000"
+    "server": "json-server --watch db.json --port 5000",
+    "build:ghpages": "ng build --prod --deploy-url=https://jahanzaibrao-dev.github.io/My-store/"
   },
   "private": true,
   "dependencies": {
